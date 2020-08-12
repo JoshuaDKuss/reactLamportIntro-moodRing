@@ -58,7 +58,6 @@ class MoodRing extends React.Component{
             savedMoods: [ ...this.state.savedMoods, this.state.currentMood ]
         })
     }
-
 } // end component
 
 export default MoodRing;
